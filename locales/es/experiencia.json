@@ -1,0 +1,51 @@
+{
+  "Live": {
+    "title": "Shows en vivo",
+    "picture1Content": "Goza y recrea tus sentidos con excelentes mezclas de nuestros  Dj 's.",
+    "picture2Content": " Disfruta de ambientes vibrantes, emocionantes y alegres."
+  },
+  "ThemeParties": {
+    "title": "Rumbas tematicas",
+    "content": "Contempla y súmate a las exclusivas rumbas temáticas en Cartagena con música, decoración, disfraces y excelentes premios."
+  },
+  "Crossover": {
+    "title": "Ambiente crossover",
+    "content": "Dj en vivo con la mejor fusión de ritmos y sonidos para ponerte a vibrar al ritmo de la música."
+  },
+  "Doubts": {
+    "title": "No tengas dudas",
+    "item": [
+      {
+        "question": "¿Cómo me debo vestir?",
+        "aswer": {
+          "content": "Ponte tu mejor outfit, siéntete cool y cómodo que aquí la rumba va hasta el amanecer. No permitimos lo siguiente:",
+          "list": ["Ropa de playa", "Sandalias de playa"]
+        }
+      },
+      {
+        "question": "¿Cómo es la rumba al estilo Skapate?",
+        "aswer": {
+          "content": "Sonríe, baila al ritmo de la mística, activa tu paladar de sabores y sensaciones. Vive la página y disfruta de la mejor rumba."
+        }
+      },
+      {
+        "question": "¿Puedo celebrar alguna fecha especial?",
+        "aswer": {
+          "content": "Por supuesto que sí, sólo contactanos a nuestro número 300 4115807 y listo."
+        }
+      },
+      {
+        "question": "¿Puedo encontrar el amor, amigos o pareja de baile?",
+        "aswer": {
+          "content": "Entra al paraíso con la mejor actitud y crea inolvidables recuerdos. Siéntete libre de ser tu."
+        }
+      },
+      {
+        "question": "¿Venden todo tipo de alcohol?",
+        "aswer": {
+          "content": "¡Que la rumba no pare y que el alcohol no falte! Tenemos la más amplia carta de licores, podrás encontrar desde vodka, cervezas internacionales, whiskey hasta vinos espumosos."
+        }
+      }
+    ]
+  }
+}

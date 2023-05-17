@@ -1,0 +1,398 @@
+.general {
+    background-image: url("/images/header-skapate.jpg");
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.planta .content {
+    border-top: solid #fff;
+    border-left: solid #fff;
+    border-right: solid #fff;
+    padding: 60px;
+    border-radius: 20px 20px 0 0;
+    width: 860px;
+    position: relative;
+    margin-top: 220px;
+}
+
+.planta .content h1 {
+    position: relative;
+    color: #fff;
+    font-size: 134px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 131px;
+    letter-spacing: 5px;
+    margin: 0;
+    text-shadow: 0 0 10px #fbdd78;
+}
+
+.planta .content::before {
+    color: transparent;
+    content: "2 ambientes exclusivos";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    --webkit-text-stroke-shadow: 0 0 10px #fbdd78;
+    position: absolute;
+    font-size: 200px;
+    top: 0;
+    left: -190px;
+    line-height: 190px;
+    letter-spacing: 3px;
+    width: 1200px;
+    opacity: 1;
+    text-align: center;
+    animation: animate 2s linear infinite;
+
+}
+
+/* content english */
+.planta .content2 {
+    border-top: solid #fff;
+    border-left: solid #fff;
+    border-right: solid #fff;
+    padding: 60px;
+    border-radius: 20px 20px 0 0;
+    width: 860px;
+    position: relative;
+    margin-top: 220px;
+}
+
+.planta .content2 h1 {
+    position: relative;
+    color: #fff;
+    font-size: 134px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 131px;
+    letter-spacing: 5px;
+    margin: 0;
+    text-shadow: 0 0 10px #fbdd78;
+}
+
+.planta .content2::before {
+    color: transparent;
+    content: "2 exclusive spaces";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    --webkit-text-stroke-shadow: 0 0 10px #fbdd78;
+    position: absolute;
+    font-size: 200px;
+    top: 0;
+    left: -190px;
+    line-height: 190px;
+    letter-spacing: 3px;
+    width: 1200px;
+    opacity: 1;
+    text-align: center;
+    animation: animate 2s linear infinite;
+
+}
+
+.card_general {
+    display: flex;
+    gap: 80px;
+}
+
+.card {
+    position: relative;
+    width: 500px;
+    height: 650px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #cf60d8;
+    transition: 1s;
+}
+
+.card:hover {
+    box-shadow: 0 0 80px #cf60d8;
+}
+
+.card .content {
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 20px;
+    padding: 13px 40px;
+    margin: -10px 20px;
+    height: 24vh;
+
+}
+
+.card .content h2 {
+    color: #fff;
+    font-size: 32px;
+    margin: 0;
+}
+
+.card .content p {
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif !important
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1.5s;
+}
+
+.card img:hover {
+    transform: scale(1.1);
+    background-color: rgb(0 0 0 / 10%);
+    z-index: 2;
+    filter: blur(2px);
+}
+
+@media (max-width: 1244px) {
+    .planta .content h1 {
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    .planta .content::before {
+        font-size: 154px;
+        left: -31px;
+        line-height: 148px;
+        width: 917px;
+    }
+
+    .planta .content2 h1 {
+        font-size: 110px;
+        line-height: 100px;
+    }
+
+    .planta .content2::before {
+        font-size: 154px;
+        left: -31px;
+        line-height: 148px;
+        width: 917px;
+    }
+
+    .card {
+        width: 450px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1120px) {
+    .card_general {
+        gap: 30px;
+    }
+}
+
+@media (max-width: 1047px) {
+    .card_general {
+        gap: 40px;
+    }
+}
+
+@media (max-width: 991px) {
+    .planta .content h1 {
+        font-size: 90px;
+        line-height: 90px;
+    }
+
+    .planta .content::before {
+        font-size: 130px;
+        left: 81px;
+        line-height: 130px;
+        width: 685px;
+    }
+    .planta .content2 h1 {
+        font-size: 90px;
+        line-height: 90px;
+    }
+
+    .planta .content2::before {
+        font-size: 130px;
+        left: 81px;
+        line-height: 130px;
+        width: 685px;
+    }
+
+    .general {
+        padding: 0 40px;
+    }
+
+    .card_general {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        height: 618px;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .planta .content {
+        width: 700px;
+
+    }
+
+    .planta .content::before {
+        left: 5px;
+    }
+    .planta .content2 {
+        width: 700px;
+
+    }
+
+    .planta .content2::before {
+        left: 5px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .planta .content::before {
+        font-size: 100px;
+        left: auto;
+        top: 30px;
+        line-height: 100px;
+        max-width: 535px;
+        width: 100%;
+    }
+
+    .planta .content h1 {
+        font-size: 78px;
+        line-height: 69px;
+    }
+    .planta .content2::before {
+        font-size: 100px;
+        left: auto;
+        top: 30px;
+        line-height: 100px;
+        max-width: 535px;
+        width: 100%;
+    }
+
+    .planta .content2 h1 {
+        font-size: 78px;
+        line-height: 69px;
+    }
+}
+
+@media (max-width: 867px) {
+    .card_general {
+        padding: 0 40px;
+    }
+
+    .planta .content {
+        max-width: 685px;
+        width: 100%;
+    }
+    .planta .content2 {
+        max-width: 685px;
+        width: 100%;
+    }
+
+    .planta {
+        padding: 0 40px;
+    }
+
+    .planta .content {
+        border: none;
+    }
+    .planta .content2 {
+        border: none;
+    }
+
+}
+
+@media (max-width: 767px) {
+    .card_general {
+        grid-template-columns: 1fr;
+        height: 100%;
+    }
+
+    .planta {
+        padding: 0;
+        width: 100%;
+    }
+
+
+    .planta .content {
+        display: flex;
+        justify-content: center;
+        margin-top: 26vh;
+    }
+    .planta .content2 {
+        display: flex;
+        justify-content: center;
+        margin-top: 26vh;
+    }
+
+    .card_general .card {
+        width: 80vw;
+        height: 55vh;
+    }
+
+    .card_general .content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70vw;
+        height: 26vh;
+    }
+
+    .card_general .content h2 {
+        font-size: 25px;
+    }
+
+    .card_general .content p {
+        font-size: 13px;
+    }
+
+    .content p{
+        font-size: 20px;
+    }
+
+    .planta .content::before {
+        font-size: 78px;
+        line-height: 87px;
+
+    }
+
+    .content p {
+        max-width: 337px;
+    }
+
+    .card_general .content2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70vw;
+        height: 26vh;
+    }
+
+    .card_general .content2 h2 {
+        font-size: 25px;
+    }
+
+    .card_general .content2 p {
+        font-size: 13px;
+    }
+
+    .content2 p{
+        font-size: 20px;
+    }
+
+    .planta .content2::before {
+        font-size: 78px;
+        line-height: 87px;
+
+    }
+
+    .content2 p {
+        max-width: 337px;
+    }
+
+}

@@ -1,0 +1,46 @@
+.parrafo{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+.card{
+    background-color: transparent;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+
+}
+
+.item{
+    border: none
+}
+
+@media (max-width: 767px) {
+    .parrafo{
+        color: #ffffff;
+        font-size: 40px;
+        font-family: 'Montserrat', sans-serif;
+        text-align: center;
+    }
+    
+    .card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-color: transparent;
+        color: #ffffff;
+        cursor: pointer;
+        padding: 18px;
+        width: 80%;
+        text-align: left;
+        border: solid 1px #ffffff;
+        border-radius: 10px;
+    
+    }
+}

@@ -1,0 +1,320 @@
+.footer {
+    position: relative;
+    background-image: url("/images/footer-fondo.png");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 40px;
+}
+
+.parrafo{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+.break_p{
+    white-space: pre;
+}
+.card{
+    background-color: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: solid 1px #ffffff;
+    border-radius: 10px;
+
+}
+
+.item{
+    border: none
+}
+
+.general_1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.general_1 .title {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.general_1 .title h2 {
+    font-size: 134px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #BD0BF7;
+    margin: 0;
+    width: 100%;
+}
+
+.general_1 .title::before {
+    content: "no tengas dudas";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    position: absolute;
+    font-size: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 190px;
+    letter-spacing: 3px;
+    color: transparent;
+    width: 845px;
+    border-right: 1px solid #ffffff;
+    animation: animate 5s linear infinite;
+
+}
+
+/* TITLE IN ENGLISH */
+.general_1 .title2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.general_1 .title2 h2 {
+    font-size: 134px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #BD0BF7;
+    margin: 0;
+    width: 100%;
+}
+
+.general_1 .title2::before {
+    content: "FAQ - DOUBTS?";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    position: absolute;
+    font-size: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 190px;
+    letter-spacing: 3px;
+    color: transparent;
+    width: 845px;
+    border-right: 1px solid #ffffff;
+    animation: animate 5s linear infinite;
+
+}
+
+.acordion {
+    display: grid;
+    grid-template-columns: 600px 600px;
+    gap: 40px;
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+    }
+
+    80% {
+        width: 1290px;
+    }
+
+    100% {
+        width: 0;
+    }
+}
+
+.general_1 .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.general_1 .content h3 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.card_preguntas {
+    margin-top: 60px;
+}
+
+@media (max-width: 1532px) {
+    .general_1 .title h2 {
+        font-size: 100px;
+    }
+
+    .general_1 .title::before {
+        font-size: 158px;
+        line-height: 135px;
+    }
+
+    .general_1 .title2 h2 {
+        font-size: 100px;
+    }
+
+    .general_1 .title2::before {
+        font-size: 158px;
+        line-height: 135px;
+    }
+
+    @keyframes animate {
+        0% {
+            width: 0;
+        }
+
+        80% {
+            width: 900px;
+        }
+
+        100% {
+            width: 0;
+        }
+    }
+
+}
+
+@media (max-width: 1100px) {
+    .acordion {
+        grid-template-columns: 400px 400px;
+
+    }
+}
+
+@media (max-width: 991px) {
+    .general_1 .title h2 {
+        font-size: 80px;
+    }
+
+    .general_1 .title::before {
+        font-size: 130px;
+        line-height: 110px;
+    }
+
+    .general_1 .title2 h2 {
+        font-size: 80px;
+    }
+
+    .general_1 .title2::before {
+        font-size: 130px;
+        line-height: 110px;
+    }
+
+    @keyframes animate {
+        0% {
+            width: 0;
+        }
+
+        80% {
+            width: 700px;
+        }
+
+        100% {
+            width: 0;
+        }
+    }
+}
+
+@media (max-width: 900px) {
+    .acordion {
+        grid-template-columns: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .general_1 .title h2 {
+        font-size: 60px;
+    }
+
+    .general_1 .title::before {
+        font-size: 100px;
+        line-height: 85px;
+    }
+
+    .general_1 .title2 h2 {
+        font-size: 60px;
+    }
+
+    .general_1 .title2::before {
+        font-size: 100px;
+        line-height: 85px;
+    }
+
+    @keyframes animate {
+        0% {
+            width: 0;
+        }
+
+        80% {
+            width: 550px;
+        }
+
+        100% {
+            width: 0;
+        }
+    }
+
+}
+
+@media (max-width: 610px) {
+    .general_1 .title h2 {
+        font-size: 50px;
+    }
+
+    .general_1 .title::before {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .general_1 .title2 h2 {
+        font-size: 50px;
+    }
+
+    .general_1 .title2::before {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    @keyframes animate {
+        0% {
+            width: 0;
+        }
+
+        80% {
+            width: 405px;
+        }
+
+        100% {
+            width: 0;
+        }
+    }
+}
+
+@media (max-width: 528px) {
+    .acordion {
+        grid-template-columns: 380px;
+    }
+
+}
+
+
+@media (max-width: 450px) {
+    .general_1 .title h2 {
+        font-size: 80px;
+        width: 100%;
+    }
+
+    .general_1 .title2 h2 {
+        font-size: 80px;
+        width: 100%;
+    }
+
+}

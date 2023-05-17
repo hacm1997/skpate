@@ -1,0 +1,188 @@
+.section {
+  background-image: url("/images/enVivo/enVivo.jpg");
+  background-size: cover;
+  background-position: right;
+  width: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.title {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  left: 120px;
+  top: 30px;
+  z-index: 3;
+}
+
+.title h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 190px;
+  width: 354px;
+  line-height: 165px;
+  text-shadow: 0 0 10px #bd0bf7;
+}
+
+.title::before {
+  color: transparent;
+  content: "SHOWS EN VIVO";
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.22);
+  --webkit-text-stroke-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+  position: absolute;
+  line-height: 225px;
+  font-size: 270px;
+  width: 354px;
+  opacity: 1;
+  text-align: center;
+  animation: animate 2s linear infinite;
+}
+
+.titleEn {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  left: 100px;
+  top: 30px;
+  z-index: 3;
+}
+
+.titleEn h2 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 190px;
+  width: 354px;
+  line-height: 165px;
+  text-shadow: 0 0 10px #bd0bf7;
+}
+
+.titleEn::before {
+  color: transparent;
+  content: "LIVE SHOWS";
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(255, 255, 255, 0.22);
+  --webkit-text-stroke-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+  position: absolute;
+  line-height: 225px;
+  font-size: 270px;
+  width: 354px;
+  opacity: 1;
+  text-align: center;
+  animation: animate 2s linear infinite;
+}
+
+
+
+.multimedia {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.multimedia img {
+  max-width: 100%;
+  width: 100vw;
+}
+
+.itemMultimedia {
+  width: 100%;
+}
+
+
+@media (max-width: 1651px) {
+  .multimedia img {
+    width: 500px;
+    height: 100%;
+    object-fit: cover;
+  }
+
+}
+
+@media (max-width: 1387px) {
+  .multimedia img {
+    width: 400px;
+  }
+
+  .title h2 {
+    font-size: 120px;
+    line-height: 98px;
+    width: 256px;
+  }
+
+  .title::before {
+    font-size: 143px;
+    line-height: 111px;
+    width: 304px;
+  }
+}
+
+
+
+@media (max-width: 767px) {
+  .multimedia img {
+    width: 50%;
+  }
+
+  .itemMultimedia img {
+    position: relative;
+    width: 100%;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  .section {
+    background-position: 36%;
+  }
+
+
+  .title {
+    left: 30px;
+  }
+
+  .titleEn {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    height: 100%;
+    left: 10px;
+    top: 30px;
+    z-index: 3;
+  }
+  
+  .titleEn h2 {
+    margin: 0;
+    color: #ffffff;
+    font-size: 140px;
+    width: 354px;
+    line-height: 140px;
+    text-shadow: 0 0 10px #bd0bf7;
+  }
+  
+  .titleEn::before {
+    color: transparent;
+    content: "LIVE SHOWS";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.22);
+    --webkit-text-stroke-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+    position: absolute;
+    line-height: 120px;
+    font-size: 140px;
+    width: 354px;
+    opacity: 1;
+    text-align: center;
+    animation: animate 2s linear infinite;
+  }
+  
+
+  .itemMultimedia img {
+    position: relative;
+    width: 100%;
+  }
+
+}

@@ -1,0 +1,216 @@
+.section {
+    position: relative;
+    background-image: url("/images/tematica/rumbas-tematicas.jpg");
+    background-size: cover;
+    background-position: right;
+    background-color: #111111;
+    height: 850px;
+    width: 100%;
+    padding-left: 80px;
+}
+
+
+.title h2 {
+    position: relative;
+    top: 70px;
+    margin: 0;
+    color: #fff;
+    font-size: 206px;
+    width: 700px;
+    line-height: 200px;
+    text-align: end;
+    text-shadow: 0 0 10px #BD0BF7;
+    z-index: 2;
+}
+
+.title::before {
+    color: transparent;
+    content: "RUMBAS TEMÁTICAS";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.22);
+    --webkit-text-stroke-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+    position: absolute;
+    line-height: 225px;
+    left: 0;
+    top: 40px;
+    font-size: 270px;
+    width: 900px;
+    text-align: end;
+    opacity: 1;
+    z-index: 2;
+    animation: animate 2s linear infinite;
+}
+
+.titleEn h2 {
+    position: relative;
+    top: 70px;
+    margin: 0;
+    color: #fff;
+    font-size: 206px;
+    width: 700px;
+    line-height: 200px;
+    text-align: end;
+    text-shadow: 0 0 10px #BD0BF7;
+    z-index: 2;
+}
+
+.titleEn::before {
+    color: transparent;
+    content: "THEME PARTIES";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(255, 255, 255, 0.22);
+    --webkit-text-stroke-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+    position: absolute;
+    line-height: 225px;
+    left: 0;
+    top: 40px;
+    font-size: 270px;
+    width: 900px;
+    text-align: end;
+    opacity: 1;
+    z-index: 2;
+    animation: animate 2s linear infinite;
+}
+
+.multimedia {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+
+.content {
+    position: relative;
+    top: 100px;
+    left: 80px;
+    color: #ffffff;
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 18px;
+    z-index: 2;
+    width: 400px;
+}
+
+.content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #A4581B 0%, #FBDD78 51%, #A4581B 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    width: 140px;
+    height: 40px;
+    border-radius: 30px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 10px rgba(251, 221, 120, 0.66);
+    border: none;
+}
+
+.content a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1387px) {
+    .title h2 {
+        font-size: 130px;
+        width: 433px;
+        line-height: 124px;
+    }
+
+    .title::before {
+        line-height: 149px;
+        font-size: 193px;
+        width: 520px;
+    }
+}
+
+@media (max-width: 767px) {
+    .title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .title h2 {
+        font-size: 80px;
+        width: 300px;
+        line-height: 70px;
+        text-align: center;
+        top: 54px;
+    }
+
+    .title::before {
+        line-height: 90px;
+        font-size: 100px;
+        top: 70px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .content {
+        font-size: 14px;
+        width: 100%;
+        left: auto;
+        text-align: center;
+    }
+
+    .content a {
+        font-size: 14px;
+        width: 100px;
+        height: 30px;
+    }
+
+    .section {
+        padding: 40px;
+        height: 550px;
+    }
+
+    .boton {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .content a {
+        width: 150px;
+    }
+
+     .titleEn h2 {
+        position: relative;
+        top: 70px;
+        margin: 0;
+        right: 0px;
+        color: #fff;
+        width: fit-content;
+        font-size: 110px;
+        line-height: 110px;
+        text-align: end;
+        text-shadow: 0 0 10px #BD0BF7;
+        z-index: 2;
+    }
+    
+    .titleEn::before {
+        color: transparent;
+        content: "THEME PARTIES";
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: rgba(255, 255, 255, 0.22);
+        --webkit-text-stroke-shadow: 0 0 10px rgba(255, 255, 255, 0.76);
+        position: absolute;
+        line-height: 110px;
+        left: 0;
+        top: 40px;
+        font-size: 110px;
+        width: fit-content;
+        text-align: end;
+        opacity: 1;
+        z-index: 2;
+        animation: animate 2s linear infinite;
+    }
+}

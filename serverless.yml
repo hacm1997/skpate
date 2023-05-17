@@ -1,0 +1,4 @@
+skapatehookahbar:
+  component: "@sls-next/serverless-component@latest"
+  inputs:
+    domain: ["skapatehookahbar.com"]

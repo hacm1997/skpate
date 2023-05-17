@@ -1,0 +1,23 @@
+{
+  "Hero": {
+    "title": "Hookah sessions",
+    "content": "Between smoke and booze the party is best lived. Our variety of hookah scents will be the perfect addition to your Skapate night."
+  },
+  "Choose":{
+    "title": "Choose the one you like"
+  },
+  "Essences": {
+    "title": "Variety of essences",
+    "content": "Citrus, sweet or menthol? We want to please you, here you can find a wide variety",
+    "list": [
+      {"flavor": "Watermelon"},
+      {"flavor": "Blue Mint"},
+      {"flavor": "Blue Mint"},
+      {"flavor": "Blueberries"}
+    ]
+  },
+  "Profits": {
+    "title": " Blunt and Chill",
+    "content": "With our hookahs and essences you can reduce stress, anxiety, improve mood and concentration. Also, it can help reduce the amount of smoke inhaled."
+  }
+}

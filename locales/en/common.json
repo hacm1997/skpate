@@ -1,0 +1,25 @@
+{
+  "Header": {
+    "items": [
+      "Skapate",
+      "Experiences",
+      "Hookah sessions",
+      "Menu"
+    ]
+  },
+  "bookingButton": "Book Now",
+  "Footer": {
+    "AboutUs": {
+      "title": "ABOUT US",
+      "content": "Our purpose is that your senses allow you to live incredible moments. Smile while you dance to the rhythm of the best music and experience emotions with the taste of the best liquors of Cartagena"
+    },
+    "ContactUs": {
+      "title": "STAY CONNECTED",
+      "location": "Calle 35 #19, Centro \nCartagena de Indias",
+      "phones": "(+57) 300 4115807 \n(+57) 317 3632050",
+      "Schedule": "Hours \n7:00 pm to 3:00 am"
+    },
+    "SocialMediaTitle": "Social Media",
+    "DevelopedBy": "Developed by"
+  }
+}

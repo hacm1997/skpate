@@ -1,0 +1,11 @@
+{
+  "defaultLocale": "es",
+  "locales": ["es", "en"],
+  "pages": {
+    "*": ["common"],
+    "/": ["home"],
+    "/experiencia": ["experiencia"],
+    "/hookah-sessions": ["hookah-sessions"],
+    "/menu": ["menu"]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "Environments": {
+    "title": "2 exclusive spaces",
+    "High": {
+      "title": "HIGH",
+      "content": "There is no better environment for your parties than our VIP room. Here the rumba does not stop, schedule your reservation and let's break up together!"
+    },
+    "Dembow": {
+      "title": "DEMBOW",
+      "content": "At Skapate Hookah Bar you can experience a party on another level, an exclusive space with crossover music that will elevate your senses."
+    }
+  },
+  "Vip": {
+    "title": "ZONA VIP",
+    "subtitle": "Exclusive areas for exclusive people.",
+    "content": "Reserve an exclusive space with the best view for the dance area, more privacy, comfort, with drinks, hookahs and quality essences."
+  },
+  "Bar": {
+    "title": "To quench your thirst",
+    "subtitle": "In these bars you'll never be without a drink",
+    "content": "You can find exclusive liquors such as: Clase Azul Reposado, Macallan, Tequila Clase Azul Reposado, Cogna Hennessy, Ginebra Hendrick´s, Vodka Grey Grosee, Viuda de Clicquot"
+  },
+  "Cover": {
+    "title": "COVER?",
+    "subtitle": "What's that?",
+    "content": "The entrance to paradise and the pass to the show to dream and live an experience fused between smiles, party and lots of flavor, is FREE."
+  }
+}

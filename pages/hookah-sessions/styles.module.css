@@ -1,0 +1,63 @@
+.footer {
+    position: relative;
+    background-color: #03010E;
+}
+
+.humo {
+    position: absolute;
+    bottom: 0;
+    left: 24%;
+    mix-blend-mode: screen;
+    z-index: 4;
+}
+
+.humo img {
+    width: 300px;
+}
+
+@media (max-width: 1651px) {
+    .humo {
+        left: 20%;
+    }
+}
+
+@media (max-width: 1500px) {
+    .humo {
+        left: 18%;
+    }
+}
+
+@media (max-width: 1290px) {
+    .humo {
+        left: 53%;
+    }
+}
+
+@media (max-width: 1108px) {
+    .humo {
+        left: 53%;
+    }
+}
+
+@media (max-width: 991px) {
+    .humo {
+        left: 35%;
+    }
+}
+
+@media (max-width: 767px) {
+    .footer .section .card_general {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        height: 80vh;
+        margin-top: 1vh;
+        border: 20px 10px 20px #f9db00;
+    }
+    
+    .humo {
+        left: -8%;
+    }    
+
+}

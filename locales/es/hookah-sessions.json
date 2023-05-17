@@ -1,0 +1,23 @@
+{
+  "Hero": {
+    "title": "Hookah sessions",
+    "content": "Entre el humo y el alcohol la fiesta se vive mejor. Nuestra variedad de esencias de hookah serán el plus perfecto en tu noche de Skapate."
+  },
+  "Choose":{
+    "title": "Elige la que quieras"
+  },
+  "Essences": {
+    "title": "Variedad de esencias",
+    "content": "¿Cítricas, dulces o mentoladas? Queremos complacerte, aquí podrás encontrar una gran variedad",
+    "list": [
+        {"flavor": "Sandía"},
+        {"flavor": "Menta azul"},
+        {"flavor": "Blue mint"},
+        {"flavor": "Arándanos"}
+    ]
+  },
+  "Profits": {
+    "title": "Beneficios que te relajan",
+    "content": "Con nuestros hookahs y esencias puedes reducir el estrés, la ansiedad, mejorar el humor y la concentración. También, puede ayudar a reducir la cantidad de humo que se inhala."
+  }
+}

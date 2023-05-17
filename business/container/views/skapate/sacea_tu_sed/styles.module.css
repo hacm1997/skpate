@@ -1,0 +1,324 @@
+.section {
+    height: 100%;
+    background-color: #19083a;
+    padding: 40px 80px;
+}
+
+.general .title h2 {
+    font-size: 134px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    margin: 0;
+    text-shadow: 0 0 10px #fbdd78;
+}
+
+.general .title::before {
+    content: "para saciar tu sed";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    position: absolute;
+    font-size: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 190px;
+    letter-spacing: 3px;
+    color: transparent;
+    width: 1460px;
+    animation: animate 5s linear infinite;
+}
+
+/* Title Saciar sed */
+.general .title2 h2 {
+    font-size: 134px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    margin: 0;
+    text-shadow: 0 0 10px #fbdd78;
+}
+
+.general .title2::before {
+    content: "To quench your thirst";
+
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    position: absolute;
+    font-size: 230px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 190px;
+    letter-spacing: 3px;
+    color: transparent;
+    width: 1460px;
+    animation: animate 5s linear infinite;
+}
+
+.card_general {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    margin-top: 60px;
+}
+
+.card_general .card {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #cf60d8;
+    height: auto;
+    transition: 1.5s;
+}
+
+.card_general .card:hover {
+    box-shadow: 0 0 80px #cf60d8;
+}
+
+.card_general .card img {
+    width: 40vw ;
+    height: 100%;
+    object-fit: cover;
+    transition: 1.5s;
+}
+
+.card_general .card img:hover {
+    transform: scale(1.1);
+}
+
+.general .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.general .content h3 {
+    font-size: 32px;
+    color: #ffffff;
+    letter-spacing: 2px;
+    margin: 0;
+    text-shadow: 0 0 10px rgba(251, 221, 120, 0.5);
+}
+
+.general .content p {
+    font-size: 18px;
+    color: #ffffff;
+    font-family: 'montserrat', sans-serif;
+    max-width: 800px;
+    width: 100%;
+}
+
+.general .content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #A4581B 0%, #FBDD78 51%, #A4581B 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 10px rgba(251, 221, 120, 0.42);
+    margin-top: 20px;
+}
+
+.general .content a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 1582px) {
+    .general .title::before {
+        font-size: 200px;
+        width: 1271px;
+    }
+    .general .title2::before {
+        font-size: 200px;
+        width: 1271px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .general .title::before {
+        font-size: 170px;
+        width: 1090px;
+    }
+    .general .title2::before {
+        font-size: 170px;
+        width: 1090px;
+    }
+}
+
+@media (max-width: 1186px) {
+    .general .title::before {
+        font-size: 150px;
+        width: 973px;
+    }
+    .general .title2::before {
+        font-size: 150px;
+        width: 973px;
+    }
+}
+
+@media (max-width: 1059px) {
+    .title {
+        display: flex;
+        align-items: center;
+    }
+
+    .general .title h2 {
+        font-size: 109px;
+    }
+
+    .general .title::before {
+        font-size: 131px;
+        width: 848px;
+    }
+    .title2 {
+        display: flex;
+        align-items: center;
+    }
+
+    .general .title2 h2 {
+        font-size: 109px;
+    }
+
+    .general .title2::before {
+        font-size: 131px;
+        width: 848px;
+    }
+}
+
+@media (max-width: 991px) {
+    .card_general {
+        gap: 40px;
+    }
+
+    .general .title h2 {
+        font-size: 90px;
+    }
+
+    .general .title::before {
+        font-size: 109px;
+        width: 714px;
+    }
+
+    .general .title2 h2 {
+        font-size: 90px;
+    }
+
+    .general .title2::before {
+        font-size: 109px;
+        width: 714px;
+    }
+}
+
+@media (max-width: 813px) {
+    .general .title h2 {
+        font-size: 70px;
+    }
+
+    .general .title::before {
+        font-size: 90px;
+        width: 601px;
+    }
+    .general .title2 h2 {
+        font-size: 70px;
+    }
+
+    .general .title2::before {
+        font-size: 90px;
+        width: 601px;
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding: 40px;
+    }
+
+    .general {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .section .general .card_general {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        height: 80vh;
+        margin-top: 1vh;
+    }
+
+    .section .general .card_general .card {
+        width: 70vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+
+    .section .general .card_general .card img {
+        width: 160vw;
+    }
+
+    .card img {
+        width: 200vw;
+    }
+
+    .general .title h2 {
+        font-size: 65px;
+    }
+
+    .general .title::before {
+        font-size: 80px;
+        max-width: 541px;
+        width: 100%;
+    }
+
+    .general .title2 h2 {
+        font-size: 65px;
+    }
+
+    .general .title2::before {
+        font-size: 80px;
+        max-width: 541px;
+        width: 100%;
+    }
+
+}
+@media (max-width: 624px) {
+    .general .title{
+        margin-top: 40px;
+    }
+    .general .title::before {
+        display: none;
+    }
+
+    .general .title h2{
+        font-size: 40px;
+    }
+
+    .general .title2{
+        margin-top: 40px;
+    }
+    .general .title2::before {
+        display: none;
+    }
+
+    .general .title2 h2{
+        font-size: 40px;
+    }
+
+}

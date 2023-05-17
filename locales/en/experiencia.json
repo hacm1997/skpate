@@ -1,0 +1,60 @@
+{
+  "Live": {
+    "title": "Live Shows",
+    "picture1Content": "Enjoy and recreate your senses with excellent mixes from our DJ's.",
+    "picture2Content": "Enjoy vibrant, exciting and joyful environments."
+  },
+  "ThemeParties": {
+    "title": "Theme Parties",
+    "content": "Behold and join the exclusive theme parties in Cartagena with music, decorations, costumes and excellent prizes."
+  },
+  "Crossover": {
+    "title": "Crossover",
+    "content": "Live Dj with the best fusion of rhythms and sounds to make you vibrate to the rhythm of the music."
+  },
+  "Doubts": {
+    "title": "FAQ - DOUBTS?",
+    "item": [
+      {
+        "question": "What is the dress code at Skapate Hookah Bar?",
+        "aswer": {
+          "content": "Wear your best outfit, feel cool and comfortable, because our party goes on until sunrise. We do not allow any of the following:",
+          "list": [
+            "Beachwere",
+            "Flip-flops"
+          ]
+        }
+      },
+      {
+        "question": "Are you open every day?",
+        "aswer": {
+          "content": "We are open every day from 8:00 pm to 3:00 am. We are waiting for you."
+        }
+      },
+      {
+        "question": "What is the Skapate style party like?",
+        "aswer": {
+          "content": "Smile, dance to the rhythm of mysticism, activate your palate with flavors and sensations. Live the page and enjoy the best party."
+        }
+      },
+      {
+        "question": "Can I celebrate any special date?",
+        "aswer": {
+          "content": "Of course you can, just contact us at our number 300 4115807 and you are ready to go."
+        }
+      },
+      {
+        "question": "Can I find love, friends or dance partners?",
+        "aswer": {
+          "content": "Enter paradise with the best attitude and create unforgettable memories. Feel free to be you."
+        }
+      },
+      {
+        "question": "Do you sell all types of alcohol?",
+        "aswer": {
+          "content": "Don't let the party and the booze stop! We have the widest liquor menu, you can find from vodka, international beers, whiskey to sparkling wines."
+        }
+      }
+    ]
+  }
+}

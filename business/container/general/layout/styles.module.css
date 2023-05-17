@@ -1,0 +1,52 @@
+.float {
+  position: fixed;
+  width: 56px;
+  height: 56px;
+  bottom: 58px;
+  right: 38px;
+  background: rgb(240,205,109);
+  background: radial-gradient(circle, rgba(240,205,109,1) 23%, rgba(238,202,107,1) 25%, rgba(240,205,109,1) 30%, rgba(195,136,60,1) 50%, rgba(193,134,59,1) 54%, rgba(191,132,57,1) 59%, rgba(158,104,38,1) 100%);
+  color: #FFF;
+  border-radius: 50px;
+  border: 0.5px solid;
+  border-color: #FFFFFF;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 4px 4px 6px #f1cf6d;
+  z-index: 200;
+  transition: transform .2s;
+}
+
+.float:hover {
+  text-decoration: none;
+  background: rgb(158,104,38);
+  background: radial-gradient(circle, rgba(158,104,38,1) 15%, rgba(191,132,57,1) 21%, rgba(192,133,58,1) 25%, rgba(193,134,59,1) 28%, rgba(195,136,60,1) 31%, rgba(238,202,107,1) 51%, rgba(240,205,109,1) 70%, rgba(240,205,109,1) 100%); 
+  background-color: #fff;
+  border: 0.5px solid;
+  border-color: #f1cf6d;
+  transform: translateY(-10px);
+}
+
+.float img{
+  padding-top: 7px;
+  width: 40px;
+}
+
+.float i {
+  padding-top: 15px;
+}
+
+.my-float {
+  margin-top: 16px;
+}
+
+.progress_bar {
+  z-index: 999;
+}
+
+@media (max-width: 767px) {
+  .float {
+    right: 6vw;
+    bottom: 10vh;
+  }
+}

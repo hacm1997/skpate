@@ -1,0 +1,50 @@
+{
+    "data": {
+        "booking": "https://api.whatsapp.com/send?phone=573004115807&text=%C2%A1Hola%20Skapate!%20%F0%9F%92%83%F0%9F%8F%BB%F0%9F%95%BA%F0%9F%8F%BB%20Vengo%20de%20su%20sitio%20web%20y%20me%20gustar%C3%ADa%20vivir%20una%20experiencia%20fusionada%20entre%20sonrisas,%20fiesta%20y%20mucho%20sabor.", 
+        "tiktok": "https://www.tiktok.com/@skapatehookahbar",
+        "instagram": "https://www.instagram.com/skapatehookahbar/",
+        "facebook": "https://www.facebook.com/Skapatehookahbar/"
+    },
+    "menuCards":[
+        {
+            "id": "0",
+            "imgSrc":"/images/menu/1.jpg"
+        },
+        {
+            "id": "1",
+            "imgSrc":"/images/menu/2.jpg"
+        },
+        {
+            "id": "2",
+            "imgSrc":"/images/menu/3.jpg"
+        },
+        {
+            "id": "3",
+            "imgSrc":"/images/menu/4.jpg"
+        },
+        {
+            "id": "4",
+            "imgSrc":"/images/menu/5.jpg"
+        },
+        {
+            "id": "5",
+            "imgSrc":"/images/menu/6.jpg"
+        },{
+            "id": "6",
+            "imgSrc":"/images/menu/7.jpg"
+        },
+        {
+            "id": "7",
+            "imgSrc":"/images/menu/8.jpg"
+        },
+        {
+            "id": "8",
+            "imgSrc":"/images/menu/9.jpg"
+        },
+        {
+            "id": "9",
+            "imgSrc":"/images/menu/10.jpg"
+        }        
+
+    ]
+}

@@ -1,0 +1,175 @@
+.footer{
+    height: 100%;
+    background-image: url("/images/cover-skapate.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 40px;
+}
+.general_1 {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.general_1 .title {
+    position: relative;
+}
+
+.general_1 .title h2 {
+    font-size: 134px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #fbdd78;
+    margin: 0;
+}
+
+.general_1 .title::before {
+    content: "¿COVER?";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    position: absolute;
+    font-size: 230px;
+    left: -130px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 190px;
+    letter-spacing: 3px;
+    color: transparent;
+    width: 645px;
+    border-right: 1px solid #ffffff;
+    animation: animate 5s linear infinite;
+
+}
+
+/* COVER ON ENGLISH */
+.general_1 .title2 {
+    position: relative;
+}
+
+.general_1 .title2 h2 {
+    font-size: 134px;
+    color: #ffffff;
+    letter-spacing: 5px;
+    text-shadow: 0 0 10px #fbdd78;
+    margin: 0;
+}
+
+.general_1 .title2::before {
+    content: "COVER?";
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(251, 221, 120, 0.24);
+    position: absolute;
+    font-size: 230px;
+    left: -130px;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 190px;
+    letter-spacing: 3px;
+    color: transparent;
+    width: 645px;
+    border-right: 1px solid #ffffff;
+    animation: animate 5s linear infinite;
+
+}
+
+@keyframes animate {
+    0% {
+        width: 0;
+    }
+    80% {
+        width: 635px;
+    }
+    100% {
+        width: 0;
+    }
+}
+
+.general_1 .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.general_1 .content h3 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.general_1 .content p {
+    font-size: 18px;
+    color: #ffffff;
+    margin: 0;
+    font-family: 'montserrat', sans-serif;
+    max-width: 800px;
+    width: 100%;
+}
+
+.general_1 .content a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to right, #A4581B 0%, #FBDD78 51%, #A4581B 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    box-shadow: 0 0 10px rgba(251, 221, 120, 0.66);
+    margin-top: 30px;
+}
+
+.general_1 .content a:hover {
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+@media (max-width: 991px) {
+    .general_1 .title h2 {
+        font-size: 90px;
+    }
+    .general_1 .title::before {
+        font-size: 150px;
+        left: -79px;
+        line-height: 139px;
+    }
+
+    @keyframes animate {
+        0% {
+            width: 0;
+        }
+        80% {
+            width: 420px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+}
+
+@media (max-width: 600px) {
+    .general_1 .title::before {
+        font-size: 120px;
+        left: -79px;
+        line-height: 139px;
+    }
+    @keyframes animate {
+        0% {
+            width: 0;
+        }
+        80% {
+            width: 100px;
+        }
+        100% {
+            width: 0;
+        }
+    }
+}
